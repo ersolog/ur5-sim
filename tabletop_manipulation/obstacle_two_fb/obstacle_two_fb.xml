@@ -1,0 +1,116 @@
+<mujoco model="obstacle_two_fb">
+  <default>
+    <default class="two_fb_visual">
+      <geom type="mesh" contype="0" group="2" conaffinity="0"/>
+    </default>
+    <default class="two_fb_collision">
+      <geom type="mesh" group="3"/>
+    </default>
+  </default>
+  <asset>
+    <material name="two_fb" specular="0.0" shininess="0.0" rgba="0.0 0.0 255 1"/>
+    <mesh file="obstacle_two_fb.obj"/>
+    <mesh file="obstacle_two_fb_collision_0.obj"/>
+    <mesh file="obstacle_two_fb_collision_1.obj"/>
+    <mesh file="obstacle_two_fb_collision_2.obj"/>
+    <mesh file="obstacle_two_fb_collision_3.obj"/>
+    <mesh file="obstacle_two_fb_collision_4.obj"/>
+    <mesh file="obstacle_two_fb_collision_5.obj"/>
+    <mesh file="obstacle_two_fb_collision_6.obj"/>
+    <mesh file="obstacle_two_fb_collision_7.obj"/>
+    <mesh file="obstacle_two_fb_collision_8.obj"/>
+    <mesh file="obstacle_two_fb_collision_9.obj"/>
+    <mesh file="obstacle_two_fb_collision_10.obj"/>
+    <mesh file="obstacle_two_fb_collision_11.obj"/>
+    <mesh file="obstacle_two_fb_collision_12.obj"/>
+    <mesh file="obstacle_two_fb_collision_13.obj"/>
+    <mesh file="obstacle_two_fb_collision_14.obj"/>
+    <mesh file="obstacle_two_fb_collision_15.obj"/>
+    <mesh file="obstacle_two_fb_collision_16.obj"/>
+    <mesh file="obstacle_two_fb_collision_17.obj"/>
+    <mesh file="obstacle_two_fb_collision_18.obj"/>
+    <mesh file="obstacle_two_fb_collision_19.obj"/>
+    <mesh file="obstacle_two_fb_collision_20.obj"/>
+    <mesh file="obstacle_two_fb_collision_21.obj"/>
+    <mesh file="obstacle_two_fb_collision_22.obj"/>
+    <mesh file="obstacle_two_fb_collision_23.obj"/>
+    <mesh file="obstacle_two_fb_collision_24.obj"/>
+    <mesh file="obstacle_two_fb_collision_25.obj"/>
+    <mesh file="obstacle_two_fb_collision_26.obj"/>
+    <mesh file="obstacle_two_fb_collision_27.obj"/>
+    <mesh file="obstacle_two_fb_collision_28.obj"/>
+    <mesh file="obstacle_two_fb_collision_29.obj"/>
+    <mesh file="obstacle_two_fb_collision_30.obj"/>
+    <mesh file="obstacle_two_fb_collision_31.obj"/>
+    <mesh file="obstacle_two_fb_collision_32.obj"/>
+    <mesh file="obstacle_two_fb_collision_33.obj"/>
+    <mesh file="obstacle_two_fb_collision_34.obj"/>
+    <mesh file="obstacle_two_fb_collision_35.obj"/>
+    <mesh file="obstacle_two_fb_collision_36.obj"/>
+    <mesh file="obstacle_two_fb_collision_37.obj"/>
+    <mesh file="obstacle_two_fb_collision_38.obj"/>
+    <mesh file="obstacle_two_fb_collision_39.obj"/>
+    <mesh file="obstacle_two_fb_collision_40.obj"/>
+    <mesh file="obstacle_two_fb_collision_41.obj"/>
+    <mesh file="obstacle_two_fb_collision_42.obj"/>
+    <mesh file="obstacle_two_fb_collision_43.obj"/>
+    <mesh file="obstacle_two_fb_collision_44.obj"/>
+    <mesh file="obstacle_two_fb_collision_45.obj"/>
+    <mesh file="obstacle_two_fb_collision_46.obj"/>
+    <mesh file="obstacle_two_fb_collision_47.obj"/>
+  </asset>
+  <worldbody>
+    <!-- <body name="obstacle_two_fb" pos="0.6 -0.1 1.3  " euler="0.0 0.0 1.6"> -->
+    <body name="obstacle_two_fb" pos="0.6 0.08 1.29" euler="0.0 0.0 1.6">
+      <geom material="two_fb" mesh="obstacle_two_fb" class="two_fb_visual"/>
+      <geom mesh="obstacle_two_fb_collision_0" rgba="0.6121669693690996 0.4113694698392256 0.3413031292973341 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_1" rgba="0.03644554356893659 0.778195643815359 0.4674197445972066 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_2" rgba="0.97748674217056 0.48338046482918806 0.11789043598830662 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_3" rgba="0.4882896773909019 0.6308350289917579 0.6619729953959 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_4" rgba="0.3499130351751938 0.8970204252451092 0.6068990912704189 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_5" rgba="0.36395846047497893 0.14137855478574146 0.3553979173782372 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_6" rgba="0.766746227502559 0.2912966525659355 0.006277069020277692 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_7" rgba="0.4522962780048281 0.704836755214651 0.9198368557344843 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_8" rgba="0.4124776816355785 0.5789507790252574 0.04761873060774757 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_9" rgba="0.9818923718518916 0.20437955181894318 0.046440268462156875 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_10" rgba="0.25982053433898455 0.88126330601938 0.46752368996437366 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_11" rgba="0.08130764681666247 0.7306106188849261 0.6871081944851365 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_12" rgba="0.9835526988632577 0.5471152544990687 0.587962850434469 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_13" rgba="0.36774416221620143 0.0712005968442041 0.6816122333034178 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_14" rgba="0.32237296046519737 0.03283452183001445 0.5462461165269208 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_15" rgba="0.6513115295902481 0.8253359646637775 0.8672838172408316 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_16" rgba="0.9345808112819473 0.5587715502245454 0.4570013845190568 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_17" rgba="0.4566640342981877 0.6465284969851611 0.05568308660246124 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_18" rgba="0.7073501053547508 0.9953810676830798 0.7532262144284373 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_19" rgba="0.9809564975393856 0.038259259933058454 0.8442203285555078 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_20" rgba="0.41161427533889106 0.5947547027886994 0.05495106726725163 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_21" rgba="0.11835571843731607 0.3756759031971785 0.49915648784832745 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_22" rgba="0.5684218734386747 0.7391980371598424 0.5374194666842235 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_23" rgba="0.44274246701320563 0.22691657248018415 0.6688000325901313 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_24" rgba="0.9342836637747305 0.7006558154427435 0.16132978307070478 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_25" rgba="0.1527569842875488 0.4299748462819325 0.8049188479797187 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_26" rgba="0.8824240950542553 0.05653652660114816 0.4494106787791531 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_27" rgba="0.21746210962032464 0.20884203179311256 0.34299405370420455 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_28" rgba="0.09594250586524178 0.45861819173752627 0.9779688420077234 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_29" rgba="0.881448096353013 0.7987610453982283 0.727318381821782 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_30" rgba="0.6518028485195456 0.639493471262924 0.7776091804440047 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_31" rgba="0.7447476142172544 0.9011952815704716 0.11236993665688733 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_32" rgba="0.19652497166918648 0.639330334865136 0.05906070398442609 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_33" rgba="0.6381869004263675 0.984587475086633 0.3765330648948918 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_34" rgba="0.985627115167958 0.08199821948799613 0.214951838071204 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_35" rgba="0.46701395981868554 0.7872354470458217 0.9081245491453687 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_36" rgba="0.32944890413749683 0.3594938668375278 0.17593397211161854 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_37" rgba="0.36305341051336704 0.43543120200335395 0.8986265138616737 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_38" rgba="0.9061656432616214 0.4060176418387488 0.15060048469196163 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_39" rgba="0.6270187417508433 0.1349831933619975 0.19421391769555774 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_40" rgba="0.19992992416639155 0.24850830806134838 0.20011588363756405 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_41" rgba="0.5160978603293104 0.6619146486119045 0.3297146633015161 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_42" rgba="0.3146586663351867 0.8778890741863584 0.365156177204626 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_43" rgba="0.9726050757727378 0.7413701235825457 0.9005975950844218 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_44" rgba="0.1099940399721493 0.6769755872425516 0.2222119611389981 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_45" rgba="0.5433842350436852 0.8966480761145498 0.8476439804754694 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_46" rgba="0.9106165632247167 0.2102902148126996 0.2212307879752805 1" class="two_fb_collision"/>
+      <geom mesh="obstacle_two_fb_collision_47" rgba="0.42300403144382503 0.5462532922367961 0.9700996238372842 1" class="two_fb_collision"/>
+    </body>
+  </worldbody>
+</mujoco>
